@@ -18,7 +18,7 @@ struct ProductsIView: View {
                         print("Primo pulsante premuto")
                     }) {
                         
-                        Text("ORDINA")
+                        Text("ORDER")
                             .fontWeight(.semibold)
                             .multilineTextAlignment(.center)
                             .padding()
@@ -35,7 +35,7 @@ struct ProductsIView: View {
                         // Azioni quando il secondo pulsante viene premuto
                         print("Secondo pulsante premuto")
                     }) {
-                        Text("FILTRA")
+                        Text("FILTER")
                             .fontWeight(.semibold)
                             .padding()
                             .background(Color.white)
